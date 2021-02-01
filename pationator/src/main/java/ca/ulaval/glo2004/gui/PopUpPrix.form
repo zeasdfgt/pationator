@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="ca.ulaval.glo2004.gui.PopUpPrix">
+  <grid id="27dc6" binding="panelPrix" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties>
+      <background color="-14735571"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="4e801" class="javax.swing.JButton" binding="buttonConfirme">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Enregistrer"/>
+        </properties>
+      </component>
+      <grid id="dd052" binding="prixPanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <minimumSize width="-1" height="-1"/>
+          <opaque value="false"/>
+          <preferredSize width="360" height="240"/>
+        </properties>
+        <border type="line" title="Prix linéaire" title-justification="2" title-position="2">
+          <font size="16"/>
+          <title-color color="-8856597"/>
+          <color color="-8856597"/>
+        </border>
+        <children>
+          <grid id="f6451" layout-manager="GridLayoutManager" row-count="5" column-count="2" same-size-horizontally="true" same-size-vertically="false" hgap="20" vgap="10">
+            <margin top="10" left="20" bottom="10" right="20"/>
+            <constraints border-constraint="Center"/>
+            <properties>
+              <minimumSize width="-1" height="-1"/>
+              <opaque value="false"/>
+              <preferredSize width="0" height="0"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <grid id="1033a" layout-manager="BorderLayout" hgap="0" vgap="0">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <opaque value="false"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="e03e2" class="javax.swing.JLabel">
+                    <constraints border-constraint="West"/>
+                    <properties>
+                      <foreground color="-1"/>
+                      <minimumSize width="30" height="16"/>
+                      <preferredSize width="30" height="16"/>
+                      <text value="2x2"/>
+                    </properties>
+                  </component>
+                  <component id="ec0ad" class="javax.swing.JTextField" binding="prix22">
+                    <constraints border-constraint="Center"/>
+                    <properties>
+                      <background color="-1"/>
+                      <editable value="true"/>
+                      <horizontalAlignment value="0"/>
+                      <minimumSize width="-1" height="30"/>
+                      <opaque value="true"/>
+                      <preferredSize width="-1" height="30"/>
+                      <text value="0.30"/>
+                    </properties>
+                  </component>
+                  <component id="edeb4" class="javax.swing.JLabel">
+                    <constraints border-constraint="East"/>
+                    <properties>
+                      <foreground color="-1"/>
+                      <horizontalAlignment value="0"/>
+                      <maximumSize width="-1" height="16"/>
+                      <minimumSize width="14" height="16"/>
+                      <preferredSize width="14" height="16"/>
+                      <text value="$"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+              <grid id="c0d36" layout-manager="BorderLayout" hgap="0" vgap="0">
+                <constraints>
+                  <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <opaque value="false"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="a1fff" class="javax.swing.JLabel">
+                    <constraints border-constraint="West"/>
+                    <properties>
+                      <foreground color="-1"/>
+                      <minimumSize width="30" height="16"/>
+                      <preferredSize width="30" height="16"/>
+                      <text value="2x8"/>
+                    </properties>
+                  </component>
+                  <component id="25a50" class="javax.swing.JTextField" binding="prix28">
+                    <constraints border-constraint="Center"/>
+                    <properties>
+                      <background color="-1"/>
+                      <editable value="true"/>
+                      <horizontalAlignment value="0"/>
+                      <minimumSize width="100" height="30"/>
+                      <opaque value="true"/>
+                      <preferredSize width="-1" height="30"/>
+                      <text value="1.72"/>
+                    </properties>
+                  </component>
+                  <component id="f7cf0" class="javax.swing.JLabel">
+                    <constraints border-constraint="East"/>
+                    <properties>
+                      <foreground color="-1"/>
+                      <horizontalAlignment value="0"/>
+                      <maximumSize width="-1" height="16"/>
+                      <minimumSize width="14" height="16"/>
+                      <preferredSize width="14" height="16"/>
+                      <text value="$"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+              <grid id="73150" layout-manager="BorderLayout" hgap="0" vgap="0">
+                <constraints>
+                  <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <opaque value="false"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="f1cfd" class="javax.swing.JLabel">
+                    <constraints border-constraint="West"/>
+                    <properties>
+                      <foreground color="-1"/>
+                      <minimumSize width="30" height="16"/>
+                      <preferredSize width="30" height="16"/>
+                      <text value="2x6"/>
+                    </properties>
+                  </component>
+                  <component id="b85e1" class="javax.swing.JTextField" binding="prix26">
+                    <constraints border-constraint="Center"/>
+                    <properties>
+                      <background color="-1"/>
+                      <editable value="true"/>
+                      <horizontalAlignment value="0"/>
+                      <minimumSize width="100" height="30"/>
+                      <opaque value="true"/>
+                      <preferredSize width="-1" height="30"/>
+                      <text value="1.12"/>
+                    </properties>
+                  </component>
+                  <component id="35c87" class="javax.swing.JLabel">
+                    <constraints border-constraint="East"/>
+                    <properties>
+                      <foreground color="-1"/>
+                      <horizontalAlignment value="0"/>
+                      <maximumSize width="-1" height="16"/>
+                      <minimumSize width="14" height="16"/>
+                      <preferredSize width="14" height="16"/>
+                      <text value="$"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+              <grid id="84a91" layout-manager="BorderLayout" hgap="0" vgap="0">
+                <constraints>
+                  <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <opaque value="false"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="8a11b" class="javax.swing.JLabel">
+                    <constraints border-constraint="West"/>
+                    <properties>
+                      <foreground color="-1"/>
+                      <minimumSize width="30" height="16"/>
+                      <preferredSize width="30" height="16"/>
+                      <text value="2x12"/>
+                    </properties>
+                  </component>
+                  <component id="6a55d" class="javax.swing.JTextField" binding="prix212">
+                    <constraints border-constraint="Center"/>
+                    <properties>
+                      <background color="-1"/>
+                      <editable value="true"/>
+                      <horizontalAlignment value="0"/>
+                      <minimumSize width="100" height="30"/>
+                      <opaque value="true"/>
+                      <preferredSize width="-1" height="30"/>
+                      <text value="2.50"/>
+                    </properties>
+                  </component>
+                  <component id="bd004" class="javax.swing.JLabel">
+                    <constraints border-constraint="East"/>
+                    <properties>
+                      <foreground color="-1"/>
+                      <horizontalAlignment value="0"/>
+                      <maximumSize width="-1" height="16"/>
+                      <minimumSize width="14" height="16"/>
+                      <preferredSize width="14" height="16"/>
+                      <text value="$"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+              <grid id="51a1f" layout-manager="BorderLayout" hgap="0" vgap="0">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <opaque value="false"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="d3f29" class="javax.swing.JLabel">
+                    <constraints border-constraint="West"/>
+                    <properties>
+                      <foreground color="-1"/>
+                      <minimumSize width="30" height="16"/>
+                      <preferredSize width="30" height="16"/>
+                      <text value="2x4"/>
+                    </properties>
+                  </component>
+                  <component id="f3084" class="javax.swing.JTextField" binding="prix24">
+                    <constraints border-constraint="Center"/>
+                    <properties>
+                      <background color="-1"/>
+                      <editable value="true"/>
+                      <horizontalAlignment value="0"/>
+                      <minimumSize width="100" height="30"/>
+                      <opaque value="true"/>
+                      <preferredSize width="-1" height="30"/>
+                      <text value="0.71"/>
+                    </properties>
+                  </component>
+                  <component id="dd1ce" class="javax.swing.JLabel">
+                    <constraints border-constraint="East"/>
+                    <properties>
+                      <foreground color="-1"/>
+                      <horizontalAlignment value="0"/>
+                      <maximumSize width="-1" height="16"/>
+                      <minimumSize width="14" height="16"/>
+                      <preferredSize width="14" height="16"/>
+                      <text value="$"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+              <grid id="5c7b7" layout-manager="BorderLayout" hgap="0" vgap="0">
+                <constraints>
+                  <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <opaque value="false"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="542cc" class="javax.swing.JLabel">
+                    <constraints border-constraint="West"/>
+                    <properties>
+                      <foreground color="-1"/>
+                      <minimumSize width="30" height="16"/>
+                      <preferredSize width="30" height="16"/>
+                      <text value="2x10"/>
+                    </properties>
+                  </component>
+                  <component id="6f637" class="javax.swing.JTextField" binding="prix210">
+                    <constraints border-constraint="Center"/>
+                    <properties>
+                      <background color="-1"/>
+                      <editable value="true"/>
+                      <horizontalAlignment value="0"/>
+                      <minimumSize width="100" height="30"/>
+                      <opaque value="true"/>
+                      <preferredSize width="-1" height="30"/>
+                      <text value="2.00"/>
+                    </properties>
+                  </component>
+                  <component id="487de" class="javax.swing.JLabel">
+                    <constraints border-constraint="East"/>
+                    <properties>
+                      <foreground color="-1"/>
+                      <horizontalAlignment value="0"/>
+                      <maximumSize width="-1" height="16"/>
+                      <minimumSize width="14" height="16"/>
+                      <preferredSize width="14" height="16"/>
+                      <text value="$"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+              <grid id="4c538" layout-manager="BorderLayout" hgap="0" vgap="0">
+                <constraints>
+                  <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <opaque value="false"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="d2220" class="javax.swing.JLabel">
+                    <constraints border-constraint="West"/>
+                    <properties>
+                      <foreground color="-1"/>
+                      <minimumSize width="30" height="16"/>
+                      <preferredSize width="30" height="16"/>
+                      <text value="4x4"/>
+                    </properties>
+                  </component>
+                  <component id="a4fea" class="javax.swing.JTextField" binding="prix44">
+                    <constraints border-constraint="Center"/>
+                    <properties>
+                      <background color="-1"/>
+                      <horizontalAlignment value="0"/>
+                      <minimumSize width="-1" height="30"/>
+                      <preferredSize width="-1" height="30"/>
+                      <text value="1.49"/>
+                    </properties>
+                  </component>
+                  <component id="7ba62" class="javax.swing.JLabel">
+                    <constraints border-constraint="East"/>
+                    <properties>
+                      <foreground color="-1"/>
+                      <horizontalAlignment value="0"/>
+                      <maximumSize width="-1" height="16"/>
+                      <minimumSize width="14" height="16"/>
+                      <preferredSize width="14" height="16"/>
+                      <text value="$"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+              <grid id="b143f" layout-manager="BorderLayout" hgap="0" vgap="0">
+                <constraints>
+                  <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <opaque value="false"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="178f0" class="javax.swing.JLabel">
+                    <constraints border-constraint="West"/>
+                    <properties>
+                      <foreground color="-1"/>
+                      <minimumSize width="30" height="16"/>
+                      <preferredSize width="30" height="16"/>
+                      <text value="6x6"/>
+                    </properties>
+                  </component>
+                  <component id="d1845" class="javax.swing.JTextField" binding="prix66">
+                    <constraints border-constraint="Center"/>
+                    <properties>
+                      <background color="-1"/>
+                      <editable value="true"/>
+                      <horizontalAlignment value="0"/>
+                      <minimumSize width="100" height="30"/>
+                      <opaque value="true"/>
+                      <preferredSize width="-1" height="30"/>
+                      <text value="3.84"/>
+                    </properties>
+                  </component>
+                  <component id="a4385" class="javax.swing.JLabel">
+                    <constraints border-constraint="East"/>
+                    <properties>
+                      <foreground color="-1"/>
+                      <horizontalAlignment value="0"/>
+                      <maximumSize width="-1" height="16"/>
+                      <minimumSize width="14" height="16"/>
+                      <preferredSize width="14" height="16"/>
+                      <text value="$"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+              <grid id="cb113" layout-manager="BorderLayout" hgap="0" vgap="0">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <opaque value="false"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="ed58a" class="javax.swing.JLabel">
+                    <constraints border-constraint="West"/>
+                    <properties>
+                      <foreground color="-1"/>
+                      <minimumSize width="30" height="16"/>
+                      <preferredSize width="30" height="16"/>
+                      <text value="5/4x6"/>
+                    </properties>
+                  </component>
+                  <component id="93a13" class="javax.swing.JTextField" binding="prix56">
+                    <constraints border-constraint="Center"/>
+                    <properties>
+                      <background color="-1"/>
+                      <horizontalAlignment value="0"/>
+                      <minimumSize width="100" height="30"/>
+                      <preferredSize width="-1" height="30"/>
+                      <text value="0.97"/>
+                    </properties>
+                  </component>
+                  <component id="32263" class="javax.swing.JLabel">
+                    <constraints border-constraint="East"/>
+                    <properties>
+                      <foreground color="-1"/>
+                      <horizontalAlignment value="0"/>
+                      <maximumSize width="-1" height="16"/>
+                      <minimumSize width="14" height="16"/>
+                      <preferredSize width="14" height="16"/>
+                      <text value="$"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+            </children>
+          </grid>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>

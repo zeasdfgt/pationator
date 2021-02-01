@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="ca.ulaval.glo2004.gui.Accueil">
+  <grid id="27dc6" binding="panel1" default-binding="true" layout-manager="GridLayoutManager" row-count="4" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="50">
+    <margin top="200" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="866" y="191" width="800" height="800"/>
+    </constraints>
+    <properties>
+      <background color="-14735571"/>
+      <maximumSize width="800" height="800"/>
+      <minimumSize width="800" height="800"/>
+      <preferredSize width="800" height="800"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="1eb8" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <opaque value="false"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <grid id="d2be" layout-manager="GridLayoutManager" row-count="3" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="20">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints/>
+            <properties>
+              <opaque value="false"/>
+              <preferredSize width="250" height="240"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="7f2e1" class="javax.swing.JButton" binding="quitButton">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="140" height="60"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-8856597"/>
+                  <borderPainted value="true"/>
+                  <contentAreaFilled value="false"/>
+                  <font name="Segoe UI" size="24"/>
+                  <foreground color="-8856597"/>
+                  <opaque value="false"/>
+                  <text value="Quitter"/>
+                  <visible value="true"/>
+                </properties>
+              </component>
+              <component id="f8d72" class="javax.swing.JButton" binding="openButton">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="140" height="60"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-8856597"/>
+                  <borderPainted value="true"/>
+                  <contentAreaFilled value="false"/>
+                  <font name="Segoe UI" size="24"/>
+                  <foreground color="-8856597"/>
+                  <opaque value="false"/>
+                  <text value="Ouvrir un projet"/>
+                  <visible value="true"/>
+                </properties>
+              </component>
+              <component id="e0345" class="javax.swing.JButton" binding="newButton">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="140" height="60"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-8856597"/>
+                  <borderPainted value="true"/>
+                  <contentAreaFilled value="false"/>
+                  <font name="Segoe UI" size="24"/>
+                  <foreground color="-8856597"/>
+                  <opaque value="false"/>
+                  <text value="Nouveau projet"/>
+                  <visible value="true"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </grid>
+      <grid id="e99c4" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-11051674"/>
+          <opaque value="true"/>
+        </properties>
+        <border type="none">
+          <color color="-87253"/>
+        </border>
+        <children>
+          <component id="d26f7" class="javax.swing.JLabel">
+            <constraints border-constraint="Center"/>
+            <properties>
+              <background color="-11051674"/>
+              <font name="Segoe UI" size="96" style="1"/>
+              <foreground color="-8856597"/>
+              <horizontalAlignment value="0"/>
+              <opaque value="false"/>
+              <text value="Pationator"/>
+            </properties>
+          </component>
+          <grid id="f8491" layout-manager="BorderLayout" hgap="0" vgap="0">
+            <constraints border-constraint="North"/>
+            <properties>
+              <background color="-8856597"/>
+              <preferredSize width="24" height="10"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <grid id="f93e4" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints border-constraint="South"/>
+                <properties>
+                  <preferredSize width="24" height="5"/>
+                </properties>
+                <border type="none"/>
+                <children/>
+              </grid>
+            </children>
+          </grid>
+          <grid id="82a6b" layout-manager="BorderLayout" hgap="0" vgap="0">
+            <constraints border-constraint="South"/>
+            <properties>
+              <background color="-8856597"/>
+              <preferredSize width="24" height="10"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <grid id="50042" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints border-constraint="North"/>
+                <properties>
+                  <preferredSize width="24" height="5"/>
+                </properties>
+                <border type="none"/>
+                <children/>
+              </grid>
+            </children>
+          </grid>
+        </children>
+      </grid>
+      <grid id="79909" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="2">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="-1" height="20"/>
+          </grid>
+        </constraints>
+        <properties>
+          <opaque value="false"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="4bc1d" class="javax.swing.JLabel">
+            <constraints/>
+            <properties>
+              <font size="16"/>
+              <foreground color="-10263709"/>
+              <horizontalAlignment value="0"/>
+              <text value="Version 2.0.1"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>

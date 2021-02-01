@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="ca.ulaval.glo2004.gui.Optimisation">
+  <grid id="27dc6" binding="mainPanel" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties>
+      <background color="-15259597"/>
+      <preferredSize width="400" height="400"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="7d0d4" binding="prixPanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <minimumSize width="-1" height="-1"/>
+          <opaque value="false"/>
+          <preferredSize width="360" height="240"/>
+        </properties>
+        <border type="line" title="Paramètres avancés" title-justification="2" title-position="2">
+          <font size="16"/>
+          <title-color color="-8856597"/>
+          <color color="-8856597"/>
+        </border>
+        <children>
+          <grid id="3648e" layout-manager="GridLayoutManager" row-count="4" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="20">
+            <margin top="20" left="20" bottom="20" right="20"/>
+            <constraints border-constraint="Center"/>
+            <properties>
+              <opaque value="false"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <grid id="fc2d7" layout-manager="BorderLayout" hgap="0" vgap="0">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <opaque value="false"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="e91eb" class="javax.swing.JLabel">
+                    <constraints border-constraint="West"/>
+                    <properties>
+                      <foreground color="-1"/>
+                      <text value="Nombre de fenêtres : "/>
+                    </properties>
+                  </component>
+                  <grid id="cc608" layout-manager="GridLayoutManager" row-count="1" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints border-constraint="Center"/>
+                    <properties>
+                      <opaque value="false"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <component id="cd3e4" class="javax.swing.JToggleButton" binding="nbFenetre1">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <text value="1"/>
+                        </properties>
+                      </component>
+                      <component id="3d361" class="javax.swing.JToggleButton" binding="nbFenetre2">
+                        <constraints>
+                          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <text value="2"/>
+                        </properties>
+                      </component>
+                      <component id="92b2a" class="javax.swing.JToggleButton" binding="nbFenetre4">
+                        <constraints>
+                          <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <selected value="true"/>
+                          <text value="4"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                </children>
+              </grid>
+              <grid id="151dd" layout-manager="BorderLayout" hgap="10" vgap="0">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <opaque value="false"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="493c4" class="javax.swing.JLabel">
+                    <constraints border-constraint="West"/>
+                    <properties>
+                      <foreground color="-1"/>
+                      <preferredSize width="200" height="16"/>
+                      <text value="&lt;html&gt;Changer la couleur de la &lt;br&gt; ligne de contour"/>
+                    </properties>
+                  </component>
+                  <grid id="7fbeb" binding="couleurLigneContourPanel" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints border-constraint="Center"/>
+                    <properties>
+                      <background color="-11051674"/>
+                    </properties>
+                    <border type="line">
+                      <color color="-1"/>
+                    </border>
+                    <children/>
+                  </grid>
+                  <component id="5d1ce" class="javax.swing.JButton" binding="couleurContourBoutton">
+                    <constraints border-constraint="East"/>
+                    <properties>
+                      <text value="Modifier"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+              <grid id="bfc35" layout-manager="BorderLayout" hgap="10" vgap="0">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <opaque value="false"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="ac2b" class="javax.swing.JLabel">
+                    <constraints border-constraint="West"/>
+                    <properties>
+                      <foreground color="-1"/>
+                      <preferredSize width="200" height="16"/>
+                      <text value="&lt;html&gt;Changer la couleur de &lt;br&gt;l'arrière-plan"/>
+                    </properties>
+                  </component>
+                  <grid id="2f59f" binding="couleurArrierePlanPanel" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints border-constraint="Center"/>
+                    <properties>
+                      <background color="-11051674"/>
+                    </properties>
+                    <border type="line">
+                      <color color="-1"/>
+                    </border>
+                    <children/>
+                  </grid>
+                  <component id="5c2f0" class="javax.swing.JButton" binding="couleurArrierePlanBoutton">
+                    <constraints border-constraint="East"/>
+                    <properties>
+                      <text value="Modifier"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+              <component id="3bde5" class="javax.swing.JCheckBox" binding="modeNoel">
+                <constraints>
+                  <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <foreground color="-1"/>
+                  <text value="Mode Noël"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </grid>
+    </children>
+  </grid>
+  <buttonGroups>
+    <group name="nombreFenetres">
+      <member id="92b2a"/>
+      <member id="92b2a"/>
+      <member id="cd3e4"/>
+      <member id="3d361"/>
+    </group>
+  </buttonGroups>
+</form>
